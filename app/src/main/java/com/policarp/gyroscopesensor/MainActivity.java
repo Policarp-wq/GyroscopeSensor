@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         yz = findViewById(R.id.YZ);
         Paint paint = new Paint();
         paint.setColor(Color.RED);
-        field = new BallsField(this, Ball, paint);
+        field = new BallsField(this, Ball, bounds);
         setContentView(field);
     }
 
